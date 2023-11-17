@@ -15,7 +15,7 @@ background-color: rgb(246, 239, 238);
 nav ul {
   margin: 0;
   list-style: none;
-  text-align: left;
+  text-align: center;
 }
 nav ul li {
   display: inline-block;
@@ -27,19 +27,29 @@ nav ul li a {
   font-family: 'Amatic SC', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
-  color: #a108a1;
+  color: #f62ff6;
 }
 nav ul li a:hover{
   color: #c06ed7;
 }
 h1 {
-  color:black;
+  color:rgb(63, 3, 68);
   transition: 800ms ease-in-out;
 }
 h1:hover {
   color: #bd16eb;
 }
-.FunFacts {
+section {
   width: 80%;
   margin: 17.5vh auto;
+}
+.dogimage {
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: auto;
 }
